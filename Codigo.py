@@ -12,6 +12,6 @@ def play():
     else:
         return 'you lost'
 def is_win(choice, cpu):
-    if (choice == 'r' and cpu == 's') or (choice == 's' and cpu == 'r') or (choice == 'p' and cpu == 'r'):
+    if (choice == 'r' and cpu == 's') or (choice == 's' and cpu == 'p') or (choice == 'p' and cpu == 'r'):
         return True
 print(play())
